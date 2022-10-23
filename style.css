@@ -1,0 +1,213 @@
+html {
+  background: rgb(227, 221, 221);
+  width: 100%;
+  font-family: sans-serif;
+  padding: 0;
+  margin: 0;
+  margin-right: 20px;
+  margin-left: 20px;
+  border: 10px;
+  display: inline-block;
+  clear: both;
+  z-index: calc(100%-10%);
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  right: -40px;
+  bottom: -20px;
+}
+
+.parentelement,
+ul {
+  border: 10px;
+  background: rgb(48, 48, 48);
+  padding: 1px;
+  margin: 1px;
+  color: white;
+  list-style: none;
+  text-decoration: none;
+  z-index: auto;
+}
+
+.direct_elment,
+li {
+  align-content: center;
+  margin: 0;
+  display: inline;
+  border: 2px;
+  padding: 50px;
+  position: relative;
+  vertical-align: center;
+  text-align: center;
+  font-weight: 700;
+}
+
+#ul_container:a,
+active:last-child {
+  text-decoration: none;
+  justify-self: flex-end;
+  display: inline-block;
+  width: 300px;
+}
+
+.h4-container h4 {
+  font-weight: 800;
+  font-family: Tahoma, sans-serif;
+  flex-direction: column;
+  padding-left: 720px;
+  font-size: xx-large;
+}
+.container_div {
+  border: 2px solid rgb(23, 22, 22);
+  width: 500px;
+  /* height: 600px; */
+  margin: 100px;
+  border-radius: 10px;
+  box-shadow: inset;
+  background-color: rgb(204, 200, 200);
+
+}
+
+.adjust_container  {
+  position: sticky;
+  z-index: 0;
+  background: rgb(32, 32, 32);
+  color: white;
+  top: 10;
+  left: 10;
+  width: 80px;
+  /* height: 20px; */
+  margin: 0px 20px 10px;
+  padding:10px;
+  text-align: center;
+  white-space: none;
+
+}
+
+.quote_container {
+  background-color: rgb(204, 200, 200);
+  font-style: oblique;
+  color: black;
+  font-size: smaller;
+  border: 10px;
+  text-align: right;
+}
+.adjust_2container {
+  font-size: medium;
+  color: black;
+  font-family: sans-serif;
+  font-style: oblique;
+  font-weight: 100;
+  text-align: right;
+  margin-right: 45px;
+}
+
+.adjust_3container {
+  font-style: oblique;
+  font-weight: 800;
+  font-size: xx-large;
+  font-family: Gill Sans MT;
+  text-align: center;
+  padding: 70px;
+  background: white;
+  background-position-y: inherit;
+}
+
+.adjust_4container {
+  background-color: yellow;
+  padding: 30px;
+  border-color: black;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+/*   
+  text-transform: capitalize; */
+  text-align: center;
+}
+.jscontainer{
+  font-size: 200px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  /* letter-spacing: 10px; */
+  text-size-adjust: auto;
+  font-weight: bolder;  
+ 
+
+}
+
+.adjust_5container {
+  position: relative;
+  flex-direction: row;
+  width: 500px;
+  margin: auto;
+  float: right;
+  margin-top: -300px;
+  font-size: x-large;
+  font-family: 'Times New Roman', Times, serif;
+  white-space: 30px;
+  margin-inline: 200px;
+  color: rgb(83, 81, 81);
+  box-sizing: border-box;
+  -webkit-text-fill-color: rgb(63, 62, 62);
+}
+
+.section_wrap {
+  background: orange;
+  width: 500px;
+  font-size: medium;
+  font-family: serif;
+  margin-inline: -180px;
+  letter-spacing: 1px;
+  font-size: medium;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  margin-right: 650px;
+}
+
+div.badge {
+  text-size-adjust: 20px;
+  padding: 30px;
+  margin: 30px;
+  height: 50px;
+  -webkit-text-fill-color: white;
+  vertical-align: middle;
+  position: relative;
+  bottom: -10px;
+  left: 10px;
+}
+
+.foot_container {
+  background-color: rgb(35, 32, 32);
+  text-align: center;
+  color: white;
+  font-size: x-large;
+  position: relative;
+  bottom: 70px;
+  height: 190px;
+  justify-content: center;
+}
+
+.div_footercontainer {
+  font-weight: 600;
+  text-align: center;
+  margin: 30px;
+  padding-top: 30px;
+}
+
+.div2containerfooter {
+  background: orange;
+  text-align: center;
+  width: 40%;
+  padding: 10px;
+  justify-items: center;
+  display: inline-block;
+  border-radius: 10px;
+}
+
+.bcontainer {
+  margin: auto;
+  width: fit-content;
+  height: fit-content;
+}
